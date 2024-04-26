@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AguAlerta</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="animaciones.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+25&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <nav>
+    <div class="video-bg">
+      <video autoplay muted loop>
+        <source src="imagenes/fondovideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <ul>
+      <li><a href="#cuadros">Informes</a></li>
+      <li><a href="#section-2" onclick="smoothScroll('.section-2')">Noticias</a></li>
+      <li><a href="#section-3" onclick="smoothScroll('.section-3')">Tips</a></li>
+      <li><a href="#section-4" onclick="smoothScroll('.section-4')">Novedades</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="background-image"></div>
+    <div class="blurred-content">
+      <div class="content">
+        <h1 id="tit">AguAlerta</h1>
+        <p id="desc">Sumérgete en AguAlerta, donde exploramos la importancia vital del agua y cómo nuestras acciones pueden marcar la diferencia. Descubre consejos prácticos, datos impactantes y recursos para proteger este recurso invaluable para las generaciones presentes y futuras. ¡Únete a nuestra misión de preservar el líquido vital de nuestro planeta!</p>
+      </div>
+    </div>
+  </div>
+  <hr style="border: none; height: 1px; background-color: #868585; margin: 20px 0;">
+  <div id="cuadros" class="additional-section">
+    <div class="info-box top-left slide-in slide-from-left">
+      <h3>Consumo Diario</h3>
+      <p>La Organización Mundial de la Salud (OMS) establece que para satisfacer las necesidades básicas de higiene, una persona requiere entre cincuenta y cien litros diarios de agua. Sin embargo, el estilo de vida actual en la Ciudad de México eleva el consumo individual a aproximadamente 300 litros al día.</p>
+    </div>
+    <div class="info-box top-right slide-in slide-from-right">
+      <h3>Consumo Mensual</h3>
+      <p>Asumiendo un hogar de 4 personas y un consumo promedio de 300 litros por persona al día, el consumo mensual aproximado en una casa sería de 38,400 litros.</p>
+      <iframe src="https://www.conanp.gob.mx/blogninos/DinámicaAguaVirtual.pdf" width="100%" height="300px" frameborder="0"></iframe>
+    </div>
+    <div class="info-box bottom-right slide-in slide-from-left">
+      <h3>Consumo Anual</h3>
+      <p>Considerando el consumo mensual de 38,400 litros, el consumo anual aproximado en una casa sería de 460,000 litros.</p>
+    </div>
+    <div class="info-box bottom-left slide-in slide-from-right">
+      <h3>Uso Sustentable</h3>
+      <p>Estos datos resaltan la necesidad de implementar medidas de ahorro y uso eficiente del agua en los hogares de la Ciudad de México para reducir el consumo excesivo y promover un manejo sustentable de este recurso vital.</p>
+    </div>
+    <div id="infoxd">
+      <p>Informacion:  <a href="https://unamglobal.unam.mx/global_revista/actuar-ya-claves-para-afrontar-la-escasez-de-agua/">https://unamglobal.unam.mx/global_revista/actuar-ya-claves-para-afrontar-la-escasez-de-agua/</a></p>
+    </div>
+  </div>
+  <hr style="border: none; height: 1px; background-color: #868585; margin: 20px 0;">
+  <div class="section-2">
+    <h2 class="section-title">Situacion Actual de Cutzamala</h2>
+    <div class="background">
+      <div id="box1" class="box">
+        <h3>Sistema Cutzamala: Niveles de Almacenamiento</h3>
+        <p class="box-text">El Sistema Cutzamala enfrenta los niveles más bajos de almacenamiento de su historia. El almacenamiento actual de agua es del 39.3% de su capacidad, un déficit significativo comparado con el promedio histórico.</p>
+      </div>
+      <div id="box2" class="box">
+        <h3>Sequía y Escasez de Lluvia</h3>
+        <p class="box-text">La sequía en el centro del país y la escasez de lluvia han agravado la situación. La falta de precipitaciones ha llevado a un déficit del 99%, afectando principalmente a Ciudad de México, Estado de México, Hidalgo y Puebla.</p>
+      </div>
+      <div id="box3" class="box">
+        <h3>Reducción en el Suministro de Agua</h3>
+        <p class="box-text">Los recortes en el suministro de agua se han intensificado para optimizar el almacenamiento. El caudal aportado por el Cutzamala se ha reducido, causando escasez en varias alcaldías de la Ciudad de México.</p>
+      </div>
+    </div>
+  </div>
+  <div class="cta-container">
+    <a href="https://www.conagua.gob.mx/conagua07/publicaciones/publicaciones/sistema-cutzamala.pdf" class="cta-link">Si quieres saber mas sobre la historia del Cutzamala te invito a leer esta pagina</a>
+  </div>
+  <hr style="border: none; height: 1px; background-color: #868585; margin: 20px 0;">
+  <div class="section-3">
+    <h2 class="section-title">Consejos para Conservar el Agua</h2>
+    <div class="tips">
+      <div class="tip">
+        <h3>Espinosa García considera que debemos tener al menos un poco de interés en el otro</h3>
+        <p>Porque si uno gasta agua en lo que no es primordial, el otro se queda sin agua para beber. El agua que uno ahorra en su casa va a beneficiar a otros.</p>
+      </div>
+      <div class="tip">
+        <h3>Algo que también debemos hacer en casa para ahorrar agua es lo que se ha comentado desde hace años: no bañarnos con la llave abierta todo el tiempo</h3>
+        <p>“Considero importante hacer una evaluación de si es necesario bañarnos diario; es decir, ya estamos en un punto en el que debemos pensar si realmente necesitamos el baño cotidiano. Si concluimos que sí, entonces que sea un baño corto, de cinco minutos.</p>
+      </div>
+      <div class="tip">
+        <h3>Los hábitos dentro de la familia</h3>
+        <p>Modificar la manera como lavamos los trastes en casa también ayuda a conservar el agua. Por ejemplo, juntar los trastes sucios del día para lavarlos en la noche hace que gastemos menos agua.</p>
+      </div>
+      <div class="tip">
+        <h3>Recoger el agua con la que nos bañamos y usarla en el sanitario también es una práctica común en muchas zonas de la ciudad en las que el agua es escasa</h3>
+        <p>Recordemos que las actividades que más consumen agua dentro de un domicilio son el lavado de ropa y bañarse.</p>
+      </div>
+      <div class="tip">
+        <h3>Prácticas creativas para ahorro de agua en crisis</h3>
+        <p>“En la Ciudad de México, en Iztapalapa, por ejemplo, los hábitos que ha desarrollado la población como respuesta al desabasto y escasez de agua son muy valiosas; se trata de adaptaciones de quien vive en esas condiciones y que pueden ser aprendidas por personas que estén enfrentando el mismo problema”, comenta Espinosa García.</p>
+      </div>
+      <div class="tip">
+        <h3>Necesitamos adaptarnos a la escasez de agua</h3>
+        <p>“Creo que es muy importante estar interesados y participar en la medida de lo posible en resolver el problema, porque cuando no hay agua estamos enojados, protestamos y vamos contra quien sea. Son reacciones legítimas, pero si no entendemos por qué no hay agua, viviremos enojados sin buscar opciones o soluciones del problema, ya sea por falta de agua en las fuentes de abastecimiento, por infraestructura insuficiente o mal manejo de un recurso escaso”.</p>
+      </div>
+    </div>
+  </div>
+  <hr style="border: none; height: 1px; background-color: #ddd; margin: 20px 0;">
+  <div class="section-4">
+    <h2 class="section-title" style="color: #4caf50; text-align: center;">Tecnologías Innovadoras para el Agua</h2>
+    <div class="innovative-solutions">
+      <div class="tip">
+        <h3>1. Tratamiento de Aguas Residuales</h3>
+        <p>El tratamiento de aguas residuales es una tecnología fundamental para reducir la contaminación del agua. Mediante procesos físicos, químicos y biológicos, se eliminan los contaminantes presentes en las aguas residuales antes de liberarlas al medio ambiente.</p>
+        <img src="https://www.gob.mx/cms/uploads/action_program/main_image/20092/post_plantas.jpg" alt="imagen de aguas residuales" width="400px">
+      </div>
+
+      <div class="tip">
+        <h3>2. Sensores de Calidad del Agua</h3>
+        <p>Estos dispositivos monitorean la calidad del agua en tiempo real. Proporcionan datos sobre parámetros como pH, turbidez, oxígeno disuelto y contaminantes. Así, se pueden tomar medidas preventivas ante cualquier anomalía.</p>
+        <img src="https://www.javeriana.edu.co/pesquisa/wp-content/uploads/2022/07/sensor-de-agua-bajo-costo-1024x576.jpg" alt="sensor de agua" width="450px">
+      </div>
+
+      <div class="tip">
+        <h3>3. Sistemas de Filtración</h3>
+        <p>Los sistemas de filtración utilizan tecnologías como membranas, carbón activado y resinas para eliminar impurezas y contaminantes del agua. Estos métodos son efectivos tanto a nivel doméstico como industrial.</p>
+        <img src="https://previews.123rf.com/images/navintar/navintar1710/navintar171000255/89269876-moderno-sistema-de-filtraci%C3%B3n-y-purificaci%C3%B3n-de-agua-para-f%C3%A1brica-industrial.jpg" alt="sistema de filtración" width="450px">
+      </div>
+
+      <h2 class="solution-title" style="color: #4caf50; text-align: center; margin-top: 30px;">Soluciones para Enfrentar la Sequía</h2>
+
+      <div class="tip">
+        <h3>1. Desalación de Agua</h3>
+        <p>La desalación convierte agua de mar en agua potable. Aunque es costosa, es una opción vital en áreas con escasez de agua dulce.</p>
+      </div>
+
+      <div class="tip">
+        <h3>2. Condensación de Vapor</h3>
+        <p>Los destiladores solares, que aprovechan la energía solar para evaporar y condensar agua, son una técnica antigua pero efectiva. Investigadores han mejorado esta tecnología, logrando condensadores más eficientes y rendidores.</p>
+      </div>
+
+      <div class="tip">
+        <h3>3. Agua del Aire del Desierto</h3>
+        <p>En regiones extremadamente secas, un equipo de científicos ha diseñado un sistema pasivo que extrae agua del aire seco utilizando energía solar. Esto podría ser una solución prometedora para combatir la escasez de agua en zonas desérticas.</p>
+      </div>
+    </div>
+  </div>
+  <nav class="footer-nav">
+    <a href="#">Home</a>
+    <p>Derechos Reservados &copy; 2024</p>
+    <span></span>
+  </nav>
+  
+</body>
+</html>
