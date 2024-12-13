@@ -520,3 +520,11 @@ footer a:hover {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  nav ul {
+    padding: 10px; /* Reducir el relleno */
+    font-size: 14px; /* Reducir el tamaño de fuente */
+    height: 50px; /* Hacer la barra más baja */
+  }
+
+}
